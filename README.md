@@ -4,6 +4,17 @@
 
 This project analyzes maternal health risk data to explore relationships between various health metrics and risk levels.
 
+## Built With
+
+- Python 3+
+- VS Code
+
+### Dependencies
+
+- pandas
+- matplotlib
+- seaborn
+
 ## Setup
 
 ### Clone the repository
@@ -37,13 +48,14 @@ python run_analysis.py
 
 [Download Report PDF](results/reports/maternal_health_risk_report.pdf)
 
-### Dependencies
+## Author
 
-- pandas
-- matplotlib
-- seaborn
+- [Lembani Sakala](https://github.com/Lembani)
 
-### License
+## Acknowledgements
+
+- [Kaggle Dataset - Maternal Health Risk Data](https://www.kaggle.com/datasets/csafrit2/maternal-health-risk-data)
+
+## License
 
 This project is licensed under the [MIT](https://github.com/Lembani/maternal_health_risk/blob/main/LICENSE) License.
-
