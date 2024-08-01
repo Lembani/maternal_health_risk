@@ -19,3 +19,12 @@ def generate_visualizations(df):
     plt.ylabel('Diastolic Blood Pressure (mmHg)')
     plt.savefig('results/visualizations/diastolic_bp_by_risk_level.png')
     plt.close()
+
+    # Violin Plot of Blood Glucose Levels by Risk Level
+    plt.figure(figsize=(12, 6))
+    sns.violinplot(data=df, x='RiskLevel', y='BS')
+    plt.title('Blood Glucose Levels by Risk Level')
+    plt.xlabel('Risk Level')
+    plt.ylabel('Blood Glucose Levels (mmol/L)')
+    plt.savefig('results/visualizations/blood_glucose_by_risk_level.png')
+    plt.close()
