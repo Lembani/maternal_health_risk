@@ -12,3 +12,10 @@ def generate_visualizations(df):
     plt.savefig('results/visualizations/systolic_bp_by_risk_level.png')
     plt.close()
 
+    plt.figure(figsize=(12, 6))
+    sns.boxplot(data=df, x='RiskLevel', y='DiastolicBP')
+    plt.title('Diastolic Blood Pressure by Risk Level')
+    plt.xlabel('Risk Level')
+    plt.ylabel('Diastolic Blood Pressure (mmHg)')
+    plt.savefig('results/visualizations/diastolic_bp_by_risk_level.png')
+    plt.close()
