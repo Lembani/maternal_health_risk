@@ -61,7 +61,7 @@ python run_analysis.py
 
 ## Author
 
-- [Lembani Sakala](https://github.com/Lembani)
+- [@lembani_](https://x.com/Lembani_)
 
 ## Acknowledgements
 
