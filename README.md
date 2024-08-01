@@ -31,7 +31,11 @@ python run_analysis.py
 
 ### Output
 
-![results](results/reports/maternal_health_risk_report.pdf)
+![Risk Level Distribution](results/visualizations/risk_level_distribution_by_age_group.png)
+
+![Correlation Heatmap](results/visualizations/correlation_heatmap.png)
+
+![Download Report PDF](results/reports/maternal_health_risk_report.pdf)
 
 ### Dependencies
 
