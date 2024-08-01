@@ -35,7 +35,7 @@ python run_analysis.py
 
 ![Correlation Heatmap](results/visualizations/correlation_heatmap.png)
 
-![Download Report PDF](results/reports/maternal_health_risk_report.pdf)
+[Download Report PDF](results/reports/maternal_health_risk_report.pdf)
 
 ### Dependencies
 
