@@ -1,4 +1,4 @@
-# Maternal Health Risk - Zambia
+# Maternal Health Risk
 
 ## Description
 
