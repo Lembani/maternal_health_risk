@@ -16,3 +16,10 @@ def perform_exploratory_analysis(df):
     plt.ylabel('Count')
     plt.savefig('results/visualizations/risk_level_distribution_by_age_group.png')
     plt.close()
+
+    # Correlation Heatmap
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(df.corr(), annot=True, cmap='coolwarm', linewidths=0.5)
+    plt.title('Correlation Heatmap')
+    plt.savefig('results/visualizations/correlation_heatmap.png')
+    plt.close()
