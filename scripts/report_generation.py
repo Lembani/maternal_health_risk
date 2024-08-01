@@ -28,7 +28,7 @@ def generate_pdf_report(df):
         plt.close()
 
         # Correlation Heatmap
-        numeric_df = df.select_dtypes(include=['number'])  # Select only numeric columns
+        numeric_df = df.select_dtypes(include=['number'])  # Filter only numeric columns
         plt.figure(figsize=(10, 8))
         sns.heatmap(numeric_df.corr(), annot=True, cmap='coolwarm', linewidths=0.5)
         plt.title('Correlation Heatmap')
